@@ -1,0 +1,15 @@
+{
+  "name": "ledgerpay",
+  "version": "1.0.0",
+  "description": "Backend de una app de gastos compartidos con libro contable de doble entrada.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
